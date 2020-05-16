@@ -6,9 +6,9 @@ function agregarE() {
     numeroE++;
     contenedorE.innerHTML += `<div class="etapa e${numeroE}">
                                 <div class="inputs">
-                                <textarea name="descEtapa${numeroE} tEtapa" cols="30" rows="10"
-                                        placeholder="Descripcion de la etapa"></textarea>
                                     <input type="text" name="nomEntapa${numeroE}" placeholder="Nombre">
+                                    <textarea class="tEtapa" name="descEtapa${numeroE}" cols="30" rows="10"
+                                        placeholder="Descripcion de la etapa"></textarea>
                                 </div>
                             </div>`;
 }

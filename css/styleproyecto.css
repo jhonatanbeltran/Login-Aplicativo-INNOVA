@@ -167,11 +167,13 @@ textarea {
  
 .tEtapa{
     width: 48%;
+    height: 80px;
 }
 
 .inputs {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
