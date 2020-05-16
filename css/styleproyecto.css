@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    background: red;
+    height: 100%;
+  }
+  
+  header {
+    background-color: rgb(191, 159, 228);
+    height: 65px;
+  }
+
+  .contenedor {
+      margin-top: 5px;
+      display: flex;
+  }
+
+  .principal {
+      width: 75%;
+      height: 600px;
+      background-color: yellow;
+  }
+
+  .secundario {
+      width: 25%;
+      background-color: violet;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .info {
+      width: 100%;
+      height: 70%;
+      border: black;
+      background-color: aqua;
+  }
+
+  .participantes {
+      margin-top: 15px;
+      width: 100%;
+      height: 30%;
+      border: black;
+      background-color: tomato;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  button {
+      border-radius: 5px;
+      font-size: medium;
+  }
