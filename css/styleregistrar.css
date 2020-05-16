@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-    
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+}
 
 header{
-    background: teal;
-    height: 89px;
+
+  background-color: aqua;
 }
