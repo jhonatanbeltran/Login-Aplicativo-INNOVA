@@ -22,7 +22,7 @@ html{
   }
 
   .contenedor {
-      margin-top: 5px;
+      margin-top: 15px;
       display: flex;
   }
 
@@ -41,21 +41,23 @@ html{
   }
 
   .info {
-      width: 100%;
+      width: 97%;
       height: 70%;
       border: black;
       background-color: aqua;
+      margin-left: 3%;
   }
 
   .participantes {
       margin-top: 15px;
-      width: 100%;
+      width: 97%;
       height: 30%;
       border: black;
       background-color: tomato;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 3%;
   }
 
   button {
