@@ -110,7 +110,31 @@ button:hover {
     border-radius: 3px;
 }
 
+.etapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    margin-top: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+}
+
 input {
+    background-color: transparent;
+    border: none;
+    color: black;
+    border: 3px solid white;
+    border-bottom: 3px solid #dadce0;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    transition: .5s;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+select {
     background-color: transparent;
     border: none;
     color: black;
@@ -140,9 +164,17 @@ textarea {
     border: 3px solid white;
     border-bottom: 3px solid #dadce0;
 }
+ 
+.tEtapa{
+    width: 48%;
+}
 
 .inputs {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.contentEtapas {
+    padding: 1em;
 }

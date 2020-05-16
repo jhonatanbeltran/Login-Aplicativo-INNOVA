@@ -11,7 +11,6 @@ function agregarE() {
                                 </div>
                                 <textarea name="descEntregable${numeroE}" cols="30" rows="10"
                                         placeholder="Descripcion del entregable"></textarea>
-                                <button class="btn_info">Agregar Etapa</button>
                             </div>`;
 }
 

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleproyecto.css">
     <script src="https://kit.fontawesome.com/e43617e4d2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
-    <title>Proyecto</title>
+    <title>Etapas</title>
 </head>
-
 <body>
     <header>
         <h1>
@@ -20,18 +18,22 @@
     <div class="contenedor">
         <div class="principal">
             <div>
-                <h2 name="nombreProyecto" class="nombreProyecto">Nombre del proyecto</h2>
+                <h2>Agregar Etapas</h2>
             </div>
             <div class="sec">
-                <h3>Agregar entregable</h3>
-                <div class="contentEntregables">
-                    <div class="entregable e1">
+                <div class="contentEtapas">
+                    <select name="entregables1" >
+                        <option>E1: Documento Alcance Global</option>
+                        <option>E2: Software administrativo</option>
+                        <option>E3: Software educativo</option>
+                        <option>E4: Capacitación</option>
+                    </select>
+                    <div class="etapa e1">
                         <div class="inputs">
-                            <input type="text" name="nomEntregable1" placeholder="Nombre">
-                            <input type="number" name="costoEntregable1" placeholder="Costo">
+                            <textarea name="descEtapa1 tEtapa" cols="30" rows="10"
+                                placeholder="Descripcion de la etapa"></textarea>
+                            <input type="text" name="nomEntapa1" placeholder="Nombre">
                         </div>
-                        <textarea name="descEntregable1" cols="30" rows="10"
-                                placeholder="Descripcion del entregable"></textarea>
                     </div>
                 </div>
                 <button class="agregarE">Agregar</button>
@@ -46,14 +48,8 @@
                 <input class="iInfo" type="date">
                 <input class="iInfo" type="number" placeholder="Duración">
             </div>
-            <div class="participantes">
-                <button>Agregar participantes</button>
-            </div>
         </div>
     </div>
-
-
-    <script src="js/proyecto.js"></script>
+    <script src="js/etapa.js"></script>
 </body>
-
 </html>
