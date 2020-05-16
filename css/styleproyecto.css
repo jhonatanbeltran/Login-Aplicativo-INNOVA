@@ -100,17 +100,7 @@ button:hover {
     padding: 1em;
 }
 
-.entregable {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1em;
-    margin-top: 10px;
-    border: 1px solid #dadce0;
-    border-radius: 3px;
-}
-
-.etapa {
+.divisorSecundario {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -178,5 +168,9 @@ textarea {
 }
 
 .contentEtapas {
+    padding: 1em;
+}
+
+.contentActividades {
     padding: 1em;
 }

@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleproyecto.css">
     <script src="https://kit.fontawesome.com/e43617e4d2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
-    <title>Proyecto</title>
+    <title>Actividades</title>
 </head>
-
 <body>
     <header>
         <h1>
             -----------------------------------------ESTE ESPACIO DEL
             HEADER--------------------------
         </h1>
-    </header>
+    </header>    
     <div class="contenedor">
         <div class="principal">
             <div>
-                <h2 name="nombreProyecto" class="nombreProyecto">Nombre del proyecto</h2>
+                <h2>Agregar Actvidades</h2>
             </div>
             <div class="sec">
-                <h3>Agregar entregable</h3>
-                <div class="contentEntregables">
-                    <div class="divisorSecundario e1">
+                <div class="contentActividades">
+                    <select name="entregables1" >
+                        <option>E1: Documento Alcance Global</option>
+                        <option>E2: Software administrativo</option>
+                        <option>E3: Software educativo</option>
+                        <option>E4: Capacitación</option>
+                    </select>
+                    <select name="etapas1" >
+                        <option>Análisis</option>
+                        <option>Diseño</option>
+                        <option>Desarrollo</option>
+                        <option>Pruebas</option>
+                    </select>
+                    <div class="divisorSecundario a1">
                         <div class="inputs">
-                            <input type="text" name="nomEntregable1" placeholder="Nombre">
-                            <input type="number" name="costoEntregable1" placeholder="Costo">
+                            <input type="text" name="nomEntapa1" placeholder="Nombre">
+                            <input type="number" name="nomEntapa1" placeholder="Duración (meses)">
                         </div>
-                        <textarea name="descEntregable1" cols="30" rows="10"
-                                placeholder="Descripcion del entregable"></textarea>
                     </div>
                 </div>
                 <button class="agregarE">Agregar</button>
@@ -46,14 +53,8 @@
                 <input class="iInfo" type="date">
                 <input class="iInfo" type="number" placeholder="Duración">
             </div>
-            <div class="participantes">
-                <button>Agregar participantes</button>
-            </div>
         </div>
     </div>
-
-
-    <script src="js/proyecto.js"></script>
+    <script src="js/actividades.js"></script>
 </body>
-
 </html>

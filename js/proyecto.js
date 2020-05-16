@@ -4,7 +4,7 @@ let contenedorE = document.querySelector('.contentEntregables');
 let numeroE = 1;
 function agregarE() {
     numeroE++;
-    contenedorE.innerHTML += `<div class="entregable e${numeroE}">
+    contenedorE.innerHTML += `<div class="divisorSecundario e${numeroE}">
                                 <div class="inputs">
                                     <input type="text" name="nomEntregable${numeroE}" placeholder="Nombre">
                                     <input type="number" name="costoEntregable${numeroE}" placeholder="Costo">

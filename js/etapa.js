@@ -4,7 +4,7 @@ let contenedorE = document.querySelector('.contentEtapas');
 let numeroE = 1;
 function agregarE() {
     numeroE++;
-    contenedorE.innerHTML += `<div class="etapa e${numeroE}">
+    contenedorE.innerHTML += `<div class="divisorSecundario e${numeroE}">
                                 <div class="inputs">
                                     <input type="text" name="nomEntapa${numeroE}" placeholder="Nombre">
                                     <textarea class="tEtapa" name="descEtapa${numeroE}" cols="30" rows="10"
