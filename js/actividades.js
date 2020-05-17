@@ -4,12 +4,13 @@ let contenedorE = document.querySelector('.contentActividades');
 let numeroE = 1;
 function agregarE() {
     numeroE++;
-    contenedorE.innerHTML += `<div class="divisorSecundario a${numeroE}">
-                                <div class="inputs">
-                                    <input type="text" name="nomActividad${numeroE}" placeholder="Nombre">
-                                    <input type="number" name="duracionAct${numeroE}" placeholder="Duración (meses)">
-                                </div>
-                            </div>`;
+    var child = document.createElement('DIV');
+    child.classList.add('divisorSecundario', `a${numeroE}`);
+    child.innerHTML = `<div class="inputs">
+                            <input type="text" name="nomActividad${numeroE}" placeholder="Nombre">
+                            <input type="number" name="duracionAct${numeroE}" placeholder="Duración (meses)">
+                        </div>`
+    contenedorE.appendChild(child);
 }
 
 function eliminarE() {
