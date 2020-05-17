@@ -100,6 +100,7 @@ button:hover {
     padding: 1em;
 }
 
+/* Se agrega para todas las vistas */
 .divisorSecundario {
     display: flex;
     flex-direction: column;
