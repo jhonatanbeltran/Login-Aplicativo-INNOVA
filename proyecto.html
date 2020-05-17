@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
     <title>Proyecto</title>
 </head>
 
@@ -34,7 +35,7 @@
                             <input type="number" name="costoEntregable1" placeholder="Costo">
                         </div>
                         <textarea name="descEntregable1" cols="30" rows="10"
-                                placeholder="Descripcion del entregable"></textarea>
+                            placeholder="Descripcion del entregable"></textarea>
                     </div>
                 </div>
                 <button class="agregarE">Agregar</button>
@@ -50,185 +51,115 @@
                 <input class="iInfo" type="number" placeholder="Duración">
             </div>
             <div class="participantes">
-                <button > <a class="enlace" href="#modal1">Agregar participantes</a></button>
+                <button> <a class="enlace" href="#modal1">Agregar participantes</a></button>
             </div>
         </div>
     </div>
 
-   
+
     <div id="modal1" class="modalmask">
         <div class="modalbox movedown">
             <a href="#close" title="Close" class="close">X</a>
-            <table id="empleados" class="table table-striped table-bordered">
+            <table id="empleados" class="display compact" style="width:100%">
                 <thead>
                     <tr>
+                        <th>Documento</th>
+                        <th>Nombres</th>
                         <th>Identificacion</th>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
                         <th>Email</th>
-
-
+                        
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <td>jhonatan andres</td>
+                        <td>beltran caceres</td>
                         <td>101010101</td>
-                        <td>Jhonatan Andres</td>
-                        <td>Beltran Caceres</td>
-                        <td>jhonatanandresbc@ufps.edu.co</td>
-
-
-
+                        <td>jhonatan@gmail.com</td>
+                        
+                    
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>julian david</td>
+                        <td>godine</td>
+                        <td>12534523</td>
+                        <td>juliandvid@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>vanessa carolina</td>
+                        <td>perez sarmineto</td>
+                        <td>3673424573</td>
+                        <td>vannesas@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>eduardo david</td>
+                        <td>martinez lopez</td>
+                        <td>32246523</td>
+                        <td>eduardodadivd@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>carolina andrea</td>
+                        <td>ramirez ramirez</td>
+                        <td>35231345</td>
+                        <td>carolinaandre@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>jhonatan andres</td>
+                        <td>beltran caceres</td>
+                        <td>101010101</td>
+                        <td>jhonatan@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
                     <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
+                        <td>maria jose</td>
+                        <td>rojas castro</td>
+                        <td>45626245624</td>
+                        <td>mariajosejose@gmail.com</td>
                     </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-                    <tr>
-                        <td>111111111</td>
-                        <td>Jaime Andres</td>
-                        <td>Medina Gutierrez</td>
-                        <td>jaimemedina@ufps.edu.co</td>
-
-                    </tr>
-
                 </tbody>
+               
             </table>
         </div>
     </div>
 
-
-
-
-
-
-
     <script src="js/proyecto.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+
     <script>
         $(document).ready(function () {
             $('#empleados').DataTable();
