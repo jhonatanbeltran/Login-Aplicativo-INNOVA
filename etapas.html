@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleproyecto.css">
+    <link rel="stylesheet" href="css/footerstyle.css">
     <script src="https://kit.fontawesome.com/e43617e4d2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <title>Etapas</title>
@@ -38,18 +39,104 @@
                 </div>
                 <button class="agregarE">Agregar</button>
                 <button class="eliminarE btn_danger">Eliminar</button>
+                <div style="margin-top: 10px;"><button class="btn_info" type="submit">Guardar</button></div>
             </div>
         </div>
         <div class="secundario">
             <div class="info">
                 <h3 style="text-align: center;">Informacion del proyecto</h3>
-                <input class="iInfo" type="text" placeholder="Nombre">
-                <input class="iInfo" type="number" placeholder="Presupuesto">
-                <input class="iInfo" type="date">
-                <input class="iInfo" type="number" placeholder="Duración">
+                <input class="iInfo" type="text" placeholder="Nombre" readonly>
+                <input class="iInfo" type="number" placeholder="Presupuesto" readonly>
+                <input class="iInfo" type="date" readonly>
+                <input class="iInfo" type="number" placeholder="Duración" readonly>
+            </div>
+            <div class="participantes">
+                    <button> <a class="enlace" href="actividades.html">Agregar Actividades</a></button>
             </div>
         </div>
     </div>
+    <footer>
+
+        <div class="container-footer-all">
+
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas informacion de la aplicacion</h1>
+
+                    <p>Aplicativo de la empresa INNOVA para el manejo de proyectos</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <img src="images/facebook.png">
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                        <img src="images/twitter.png">
+                        <label>Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                        <img src="images/instagram.png">
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                    <div class="row">
+                        <img src="images/google-plus.png">
+                        <label>Siguenos en Google</label>
+                    </div>
+
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Informacion De Contacto</h1>
+
+                    <div class="row2">
+                        <img src="images/house.png">
+                        <label>
+                            Avenida Gran Colombia No. 12E-96 Barrio
+                            Colsag,
+                            San José de Cúcuta - Colombia
+                        </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="images/smartphone.png">
+                        <label>+5731174759</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="images/contact.png">
+                        <label>info@innova.com</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2020 Todos los Derechos Reservados | <a href="">Asteroide.com Jhonatan Beltran</a>
+                </div>
+
+                <div class="information">
+                    <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y
+                        Condiciones</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>   
     <script src="js/etapa.js"></script>
 </body>
 </html>

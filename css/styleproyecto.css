@@ -17,8 +17,9 @@ body {
 }
 
 header {
-    background-color: #6c757d;
+    background-color: #492055;
     height: 65px;
+    color: white;
 }
 
 .contenedor {
@@ -64,9 +65,12 @@ header {
     border-left: 1px solid #dadce0;
     border-radius: 3px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     padding-left: 7px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 button {
@@ -211,5 +215,9 @@ table {
 }
 .enlace:hover{
     text-decoration: none;
+    color: white;
+}
+
+a {
     color: white;
 }
